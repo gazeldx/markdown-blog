@@ -63,6 +63,10 @@ For referencing an image, it is completely Markdown syntax, e.g.,
 
 *A Little Penguin*
 
+![example_2.jpg](/images/example_2.jpg)
+
+![example_2.jpg](../images/example_2.jpg)
+
 ## What are the best practices for using markdown?
 
 Please read [Markdown Guide ](https://markdownguide.offshoot.io/basic-syntax/).
