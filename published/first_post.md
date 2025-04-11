@@ -3,7 +3,7 @@ id: hello
 title: This is an Example Post 1
 permalink: /
 date: 2025-03-19 10:29:28
-thumbnail: example_1.jpg
+thumbnail: example_2.jpg
 tags: [Markdown, Best Practices]
 ---
 
