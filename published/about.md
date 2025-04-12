@@ -1,17 +1,17 @@
 ---
 id: me
 permalink: /about
-title: About Me
+title: About Zhang Jian
 date: 2025-11-04 16:18:47
 thumbnail: outdoor_001.jpg
 tags: []
 ---
 
-Hello, I'm glad you visited my blog!
+## About Zhang Jian
 
-I'm Lane Zhang, from Suzhou, China.
+![](../images/him/outdoor_003.jpg)
 
-![](../images/him/outdoor_001.jpg)
+Hello, I'm glad you visited my blog! I'm Zhang Jian, from Suzhou, China.
 
 I'm currently a freelancer, I take on online web development business, quoting $30/hour.
 
