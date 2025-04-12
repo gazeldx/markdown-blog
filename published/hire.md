@@ -9,7 +9,7 @@ tags: []
 
 # Hire Zhang Jian
 
-![](../images/him/outdoor_003.jpg)
+![](../images/him/outdoor_001.jpg)
 
 Hello, I'm glad you visited my blog! I'm Zhang Jian, from Suzhou, China.
 
@@ -27,3 +27,4 @@ If you need my service, please contact me!
 ## Service Price
 
 Dear employer, I am a skilled web developer. Hire me to work for you for only $30/hour.
+

@@ -9,7 +9,7 @@ tags: []
 
 ## About Zhang Jian
 
-![](../images/him/outdoor_003.jpg)
+![](../images/him/outdoor_001.jpg)
 
 Hello, I'm glad you visited my blog! I'm Zhang Jian, from Suzhou, China.
 
@@ -23,3 +23,4 @@ In addition, I also built the website [LeetCoder.net](https://leetcoder.net) to 
 I used to be addicted to playing video games, but I quit completely. If you want to know how I quit playing games, please follow the column on this site.
 
 If you need my service, please contact me!
+
