@@ -7,9 +7,7 @@ thumbnail: example_1.jpg
 tags: []
 ---
 
-# Hire Zhang Jian
-
-![](../images/him/outdoor_001.jpg)
+![](../images/him/outdoor_002.jpg)
 
 Hello, I'm glad you visited my blog! I'm Zhang Jian, from Suzhou, China.
 
