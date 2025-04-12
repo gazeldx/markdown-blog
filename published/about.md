@@ -7,7 +7,7 @@ thumbnail: outdoor_001.jpg
 tags: []
 ---
 
-![](../images/him/outdoor_002.jpg)
+![](../images/him/outdoor_001.jpg)
 
 Hello, I'm glad you visited my blog! I'm Zhang Jian, from Suzhou, China.
 
