@@ -3,7 +3,7 @@ id: Lane
 permalink: /hire
 title: You are Welcome to Hire Me! 
 date: 2025-04-07 08:42:57
-thumbnail: example_1.jpg
+thumbnail: him/outdoor_001.jpg
 tags: []
 ---
 

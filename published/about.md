@@ -3,7 +3,7 @@ id: me
 permalink: /about
 title: About Zhang Jian
 date: 2025-11-04 16:18:47
-thumbnail: outdoor_001.jpg
+thumbnail: him/outdoor_001.jpg
 tags: []
 ---
 
