@@ -3,11 +3,11 @@ id: me
 permalink: /about
 title: About Zhang Jian
 date: 2025-11-04 16:18:47
-thumbnail: him/outdoor_003.jpg
+thumbnail: him/outdoor_004.jpg
 tags: []
 ---
 
-![](../images/him/outdoor_003.jpg)
+![](../images/him/outdoor_004.jpg)
 
 Hello, I'm glad you visited my blog! I'm Zhang Jian, from Suzhou, China.
 
