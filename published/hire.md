@@ -3,11 +3,11 @@ id: Lane
 permalink: /hire
 title: You are Welcome to Hire Me! 
 date: 2025-04-07 08:42:57
-thumbnail: him/changchun_kongzi_2.jpg
+thumbnail: him/changchun_kongzi_3.jpg
 tags: []
 ---
 
-![](../images/him/changchun_kongzi_2.jpg)
+![](../images/him/changchun_kongzi_3.jpg)
 
 Hello, I'm glad you visited my blog! I'm Zhang Jian, from Suzhou, China.
 
