@@ -9,20 +9,19 @@ tags: []
 
 ![](../images/him/changchun_kongzi_4.jpg)
 
-Hello, I'm glad you visited my blog! I'm Zhang Jian, from Suzhou, China.
+您好，很高兴您访问我的博客！我叫张健，来自中国苏州。
 
-I'm currently a freelancer, I take on online web development business.
+我目前是一名自由职业者，从事在线网页开发业务。
 
-In my spare time, I contribute code to the open source project [Markdown Resume Blog](https://github.com/resumeblog/markdown-resume-blog).
-This is a project I built myself, and it is the blog engine of the website you are visiting now.
+闲暇时，我为开源项目 [Markdown 简历博客](https://github.com/CoderResume/markdown-resume-blog) 贡献代码。
+这是我自己开发的项目，也是您当前访问的网站的博客引擎。
 
-In addition, I also built the website [LeetCoder.net](https://leetcoder.net) to teach programming algorithms.
+此外，我还创建了网站 [LeetCoder.net](https://leetcoder.net)，用于教授编程算法。
 
-I used to be addicted to playing video games, but I quit completely. If you want to know how I quit playing games, please follow the column on this site.
+我曾经沉迷于玩电子游戏，但我完全戒掉了。如果您想了解我是如何戒掉游戏的，请关注本站的专栏。
 
-If you need my service, please contact me!
+如果您需要我的服务，请联系我！
 
-## Service Price
+## 服务价格
 
-Dear employer, I am a skilled web developer. Hire me to work for you for only $30/hour.
-
+尊敬的雇主，我是一名经验丰富的网页开发人员。只需 30 美元/小时，即可聘请我为您工作。
