@@ -30,7 +30,7 @@ The GitHub repository link: [markdown-blog](https://github.com/ResumesDev/markdo
 ### You can modify the 'permalink' at any time without worrying about SEO weight of the post being reduced.
 
 - That's because we append a `-` and the `id` to the end of each post link.
-    So for this post, the real URL would be like [https://your-domain.com/the-readme-of-markdown-blog-repository-README](https://your-domain.com/the-readme-of-markdown-blog-repository-README).
+    So for this post, the real URL would be like [https://your-domain.com/blog/the-readme-of-markdown-blog-repository-README](https://your-domain.com/blog/the-readme-of-markdown-blog-repository-README).
 - Visiting a stale URL will be redirected to the fresh URL with status `301`.
 
 ## Key 'thumbnail'
