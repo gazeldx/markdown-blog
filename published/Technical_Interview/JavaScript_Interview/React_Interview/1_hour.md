@@ -124,28 +124,30 @@ Hooks是React 16.8引入的特性，允许函数组件使用state和其他React�
 
 **useState**：
 
-    ```jsx
-    const [count, setCount] = useState(0);
-    ```
-    - 返回当前状态和更新状态的函数
-    - 参数是初始状态
-    - 状态更新会触发组件重新渲染
+```jsx
+const [count, setCount] = useState(0);
+```
+- 返回当前状态和更新状态的函数
+- 参数是初始状态
+- 状态更新会触发组件重新渲染
+```
 
 **useEffect**：
 
-    ```jsx
-    useEffect(() => {
-      document.title = `You clicked ${count} times`;
-  
-      return () => {
-        // 清理函数（可选）
-      };
-    }, [count]); // 依赖数组
+```jsx
+useEffect(() => {
+  document.title = `You clicked ${count} times`;
+
+  return () => {
+    // 清理函数（可选）
+  };
+}, [count]); // 依赖数组
 ```
-    - 处理副作用（数据获取、订阅、手动DOM操作）
-    - 第一个参数是effect函数
-    - 第二个参数是依赖数组，控制effect执行时机
-    - 返回的函数用于清理工作
+
+- 处理副作用（数据获取、订阅、手动DOM操作）
+- 第一个参数是effect函数
+- 第二个参数是依赖数组，控制effect执行时机
+- 返回的函数用于清理工作
 
 ## 高级概念
 
@@ -167,6 +169,7 @@ Hooks是React 16.8引入的特性，允许函数组件使用state和其他React�
 Context提供了一种在组件树中共享数据的方法，而不必逐层传递props。
 
 使用场景：
+
 - 主题设置（如暗黑/明亮模式）
 - 用户认证信息
 - 多语言/国际化
@@ -234,9 +237,10 @@ const todoItems = todos.map((todo) =>
 React中有两种处理表单的方式：
 
 1. **受控组件**：
-    - 表单数据由React state管理
-    - 每个状态变化都有对应的处理函数
-    - 推荐方式，更符合React哲学
+
+- 表单数据由React state管理
+- 每个状态变化都有对应的处理函数
+- 推荐方式，更符合React哲学
 
 ```jsx
 function MyForm() {
@@ -261,9 +265,10 @@ function MyForm() {
 ```
 
 2. **非受控组件**：
-    - 表单数据由DOM自身处理
-    - 使用ref获取表单值
-    - 适合简单场景或集成非React代码
+
+- 表单数据由DOM自身处理
+- 使用ref获取表单值
+- 适合简单场景或集成非React代码
 
 ```jsx
 function MyForm() {
@@ -325,6 +330,7 @@ function UserList() {
 ```
 
 最佳实践：
+
 - 使用`async/await`或Promise处理异步
 - 处理加载和错误状态
 - 在`useEffect`的清理函数中取消未完成的请求（如使用AbortController）
