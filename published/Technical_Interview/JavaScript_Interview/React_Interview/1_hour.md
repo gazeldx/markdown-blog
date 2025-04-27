@@ -107,16 +107,16 @@ Hooks是React 16.8引入的特性，允许函数组件使用state和其他React�
 
 常用Hooks：
 
-    - `useState`：管理状态
-    - `useEffect`：处理副作用（替代生命周期方法）
-    - `useContext`：访问context
-    - `useReducer`：复杂状态逻辑
+- `useState`：管理状态
+- `useEffect`：处理副作用（替代生命周期方法）
+- `useContext`：访问context
+- `useReducer`：复杂状态逻辑
 
 引入原因：
 
-    - 解决类组件中逻辑难以复用的问题
-    - 简化组件逻辑，使相关代码更集中
-    - 避免类组件中`this`的混淆问题
+- 解决类组件中逻辑难以复用的问题
+- 简化组件逻辑，使相关代码更集中
+- 避免类组件中`this`的混淆问题
 
 ### 7. 解释useState和useEffect Hook
 
