@@ -16,7 +16,7 @@ tags: []
 闲暇时，我为开源项目 [Markdown 简历博客](https://github.com/developer-portfolios/developer-portfolio-engine) 贡献代码。
 这是我自己开发的项目，也是您当前访问的网站的博客引擎。
 
-此外，我还创建了网站 [LeetCoder.net](https://leetcoder.net)，用于教授编程算法。
+此外，我还创建了网站 [LeetCodePython.com](https://leetcodepython.com)，用于教授编程算法。
 
 我曾经沉迷于玩电子游戏，但我完全戒掉了。如果您想了解我是如何戒掉游戏的，请关注本站的专栏。
 
