@@ -106,12 +106,14 @@ React是一个用于构建用户界面的JavaScript库，由Facebook开发。核
 Hooks是React 16.8引入的特性，允许函数组件使用state和其他React特性。
 
 常用Hooks：
+
     - `useState`：管理状态
     - `useEffect`：处理副作用（替代生命周期方法）
     - `useContext`：访问context
     - `useReducer`：复杂状态逻辑
 
 引入原因：
+
     - 解决类组件中逻辑难以复用的问题
     - 简化组件逻辑，使相关代码更集中
     - 避免类组件中`this`的混淆问题
@@ -125,6 +127,7 @@ Hooks是React 16.8引入的特性，允许函数组件使用state和其他React�
 ```jsx
 const [count, setCount] = useState(0);
 ```
+
 - 返回当前状态和更新状态的函数
 - 参数是初始状态
 - 状态更新会触发组件重新渲染
@@ -236,55 +239,55 @@ React中有两种处理表单的方式：
 
 1. **受控组件**：
 
-- 表单数据由React state管理
-- 每个状态变化都有对应的处理函数
-- 推荐方式，更符合React哲学
+    - 表单数据由React state管理
+    - 每个状态变化都有对应的处理函数
+    - 推荐方式，更符合React哲学
 
-```jsx
-function MyForm() {
-  const [value, setValue] = useState('');
-
-  const handleChange = (event) => {
-    setValue(event.target.value);
-  };
-
-  const handleSubmit = (event) => {
-    alert('A name was submitted: ' + value);
-    event.preventDefault();
-  };
-
-  return (
-    <form onSubmit={handleSubmit}>
-      <input type="text" value={value} onChange={handleChange} />
-      <button type="submit">Submit</button>
-    </form>
-  );
-}
-```
+    ```jsx
+    function MyForm() {
+      const [value, setValue] = useState('');
+    
+      const handleChange = (event) => {
+        setValue(event.target.value);
+      };
+    
+      const handleSubmit = (event) => {
+        alert('A name was submitted: ' + value);
+        event.preventDefault();
+      };
+    
+      return (
+        <form onSubmit={handleSubmit}>
+          <input type="text" value={value} onChange={handleChange} />
+          <button type="submit">Submit</button>
+        </form>
+      );
+    }
+    ```
 
 2. **非受控组件**：
 
-- 表单数据由DOM自身处理
-- 使用ref获取表单值
-- 适合简单场景或集成非React代码
+    - 表单数据由DOM自身处理
+    - 使用ref获取表单值
+    - 适合简单场景或集成非React代码
 
-```jsx
-function MyForm() {
-  const inputRef = useRef(null);
-
-  const handleSubmit = (event) => {
-    alert('A name was submitted: ' + inputRef.current.value);
-    event.preventDefault();
-  };
-
-  return (
-    <form onSubmit={handleSubmit}>
-      <input type="text" ref={inputRef} />
-      <button type="submit">Submit</button>
-    </form>
-  );
-}
-```
+    ```jsx
+    function MyForm() {
+      const inputRef = useRef(null);
+    
+      const handleSubmit = (event) => {
+        alert('A name was submitted: ' + inputRef.current.value);
+        event.preventDefault();
+      };
+    
+      return (
+        <form onSubmit={handleSubmit}>
+          <input type="text" ref={inputRef} />
+          <button type="submit">Submit</button>
+        </form>
+      );
+    }
+    ```
 
 ### 12. 如何在React中发送HTTP请求？
 **答案**：
