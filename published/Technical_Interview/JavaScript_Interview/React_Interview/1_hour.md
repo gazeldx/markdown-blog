@@ -1,13 +1,11 @@
 ---
-id: react_one_hour
-title: React.js Interview Questions & Answers (1-Hour Crash Course)
+id: react_1
+title: React.js 面试题目与答案（1小时速览版）
 permalink: /
 date: 2025-04-27 15:08:24
 thumbnail: interview/javascript/reactjs_1_hour.png
 tags: [React.js, Interview]
 ---
-
-# React.js 面试题目与答案（1小时速览版）
 
 这些题目涵盖了React的主要概念，适合1小时快速复习。
 
