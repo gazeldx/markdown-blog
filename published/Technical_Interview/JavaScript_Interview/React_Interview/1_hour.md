@@ -237,57 +237,55 @@ const todoItems = todos.map((todo) =>
 
 React中有两种处理表单的方式：
 
-1. **受控组件**：
-
+- **受控组件**：
     - 表单数据由React state管理
     - 每个状态变化都有对应的处理函数
     - 推荐方式，更符合React哲学
 
-    ```jsx
-    function MyForm() {
-      const [value, setValue] = useState('');
-    
-      const handleChange = (event) => {
-        setValue(event.target.value);
-      };
-    
-      const handleSubmit = (event) => {
-        alert('A name was submitted: ' + value);
-        event.preventDefault();
-      };
-    
-      return (
-        <form onSubmit={handleSubmit}>
-          <input type="text" value={value} onChange={handleChange} />
-          <button type="submit">Submit</button>
-        </form>
-      );
-    }
-    ```
+```jsx
+function MyForm() {
+  const [value, setValue] = useState('');
 
-2. **非受控组件**：
+  const handleChange = (event) => {
+    setValue(event.target.value);
+  };
 
+  const handleSubmit = (event) => {
+    alert('A name was submitted: ' + value);
+    event.preventDefault();
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <input type="text" value={value} onChange={handleChange} />
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
+```
+
+- **非受控组件**：
     - 表单数据由DOM自身处理
     - 使用ref获取表单值
     - 适合简单场景或集成非React代码
 
-    ```jsx
-    function MyForm() {
-      const inputRef = useRef(null);
-    
-      const handleSubmit = (event) => {
-        alert('A name was submitted: ' + inputRef.current.value);
-        event.preventDefault();
-      };
-    
-      return (
-        <form onSubmit={handleSubmit}>
-          <input type="text" ref={inputRef} />
-          <button type="submit">Submit</button>
-        </form>
-      );
-    }
-    ```
+```jsx
+function MyForm() {
+  const inputRef = useRef(null);
+
+  const handleSubmit = (event) => {
+    alert('A name was submitted: ' + inputRef.current.value);
+    event.preventDefault();
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <input type="text" ref={inputRef} />
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
+```
 
 ### 12. 如何在React中发送HTTP请求？
 **答案**：
