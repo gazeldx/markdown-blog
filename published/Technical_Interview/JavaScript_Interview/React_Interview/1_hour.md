@@ -131,7 +131,6 @@ const [count, setCount] = useState(0);
 - 返回当前状态和更新状态的函数
 - 参数是初始状态
 - 状态更新会触发组件重新渲染
-```
 
 **useEffect**：
 
