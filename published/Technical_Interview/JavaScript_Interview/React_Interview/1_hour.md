@@ -1,6 +1,6 @@
 ---
 id: react_1
-title: 面试题目与答案（1小时速览版）
+title: React.js 面试题目与答案（1小时速览版）
 permalink: /react-js-interview-questions-answers-one-hour-studying
 date: 2025-04-27 15:08:24
 thumbnail: interview/javascript/reactjs_1_hour.png
