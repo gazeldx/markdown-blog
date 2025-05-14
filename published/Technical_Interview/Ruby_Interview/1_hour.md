@@ -10,7 +10,7 @@ tags: [ Ruby, Interview ]
 ## 基础概念 (10分钟)
 
 ### Ruby 特点
-- 动态、[解释型](../Programming_Basics/1_hour.md)、面向对象
+- 动态、[解释型](https://zhangjian.dev/blog/a43-a42l)、面向对象
 - 一切皆对象 (包括数字、nil)
 - 鸭子类型 (Duck Typing)
 - 强大的元编程能力
