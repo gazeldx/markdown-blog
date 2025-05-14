@@ -1,54 +1,63 @@
----
-id: a42l
-title: 计算机编程基础知识（面试常见，1小时速览版）
-permalink: /common-computer-programming-basics-for-interviews-1-hour-quick-review
-date: 2025-05-13 13:17:15
-thumbnail: interview/ruby/ruby_1_hour.png
-tags: []
----
+# Python Interview 1-Hour Quick Review
 
-# “编译型语言”和“解释型语言”的区别
+## I. Python Basics
 
-`编译型语言`和`解释型语言`是编程语言在**执行方式**上的两大分类，主要区别在于代码的翻译和执行过程。
+### 1. Variables & Data Types
 
-比如，有一个古希腊文写的史书（相当于用Java或Python写的），你（相当于计算机）想要理解它，就需要翻译。
+- Dynamic Typing: Variable types are determined at runtime and can be modified.
 
-- `编译型语言`（如Java)的操作方法是把这本书直接全部翻译好，然后交给你（计算机），你直接就能理解（执行）。
-- `解释型语言`（如Python)的操作方法是不把这本书直接全部翻译好，而是派一个专职的翻译官（解释器）坐在你旁边。每遇到一行，翻译官（解释器）都会当场给你（计算机）翻译，直到把所有你关心的内容翻译完。
+### 2. List vs Tuple
 
-## 1. 翻译时机与方式
+| Feature    | List (list) | Tuple (tuple) |
+|------------|-------------|---------------|
+| Mutability | Mutable     | Immutable     |
+| Syntax     | `[]`        | `()`          |
+| As dict key| Cannot      | Can           |
 
-| **类型**       | **编译型语言**（C、C++、Go） | **解释型语言**（Python、JavaScript）       |
-|----------------|---------------------|--------------------------------------------|
-| **翻译过程**   | 通过编译器**一次性**生成机器码   | 通过解释器**逐行解释并执行**               |
-| **输出文件**   | 可生成独立的可执行文件（如.exe）  | 不生成机器码文件                           |
-| **执行方式**   | 直接运行编译后的机器码         | 边翻译边执行                               |
+### 3. Dictionary & Set
 
-## 2. 性能对比
+```python
+# Dictionary operations
+d = {'a': 1}
+d.get('b', 0)  # Safe access, returns 0 if key doesn't exist
 
-- **编译型语言**  
-    - ✅ 执行速度快（直接运行机器码）
-    - ❌ 修改代码需重新编译
+# Set operations
+s = {1,2,3}
+s.add(4)  # Add element
+```
 
-- **解释型语言**  
-    - ✅ 开发调试便捷（修改后直接运行）
-    - ❌ 执行速度较慢（需实时翻译）
+## II. Core Concepts
 
-## 3. 跨平台性
+### 1. Deep vs Shallow Copy
 
-| **类型**       | **特点**                                                                 |
-|----------------|--------------------------------------------------------------------------|
-| 编译型         | 需为不同平台重新编译（如Windows/Linux分别编译）                          |
-| 解释型         | 同一份代码跨平台运行（只需安装对应解释器）                               |
+```python
+import copy
+lst = [1, [2,3]]
+shallow = lst.copy()        # Shallow copy
+deep = copy.deepcopy(lst)   # Deep copy
+```
 
-## 4. 错误处理
+### 2. Function Parameter Pitfalls
 
-- **编译型语言**：语法错误在编译阶段报错
-- **解释型语言**：运行时才可能暴露错误
+```python
+# Incorrect example
+def func(a, lst=[]):  # Default list will persist
+    lst.append(a)
+    return lst
 
-## 5. 典型语言示例
+print(func(1))  # Output [1]
+print(func(2))  # Output [1, 2] instead of the expected [2]
+print(func(3))  # Output [1, 2, 3] instead of the expected [3]
+```
 
-| **类型**       | **语言示例**                    | **工具链**                |
-|----------------|-----------------------------|---------------------------|
-| 编译型         | Java, C, C++, Rust, Swift   | GCC、LLVM                 |
-| 解释型         | Python、Ruby、JavaScript（浏览器） | CPython、V8引擎           |
+```python
+# Correct example
+def func(a, lst=None):
+    if lst is None:
+        lst = []  # A new list is created on each call
+    lst.append(a)
+    return lst
+
+print(func(1))  # Output [1]
+print(func(2))  # Output [2]
+print(func(3, [1, 2]))  # Output [1, 2, 3]
