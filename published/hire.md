@@ -13,10 +13,10 @@ tags: []
 
 我目前是一名自由职业者，从事在线网页开发业务。
 
-闲暇时，我为开源项目 [Markdown 简历博客](https://github.com/PersonalBranding/personal-brand-website-builder) 贡献代码。
+闲暇时，我为开源项目 [Markdown 简历博客](https://github.com/is-bio/is-bio) 贡献代码。
 这是我自己开发的项目，也是您当前访问的网站的博客引擎。
 
-此外，我还创建了网站 [LeetCode.blog](https://leetcode.blog)，用于教授编程算法。
+此外，我还创建了网站 [LeetCode.to](https://leetcode.to)，用于教授编程算法。
 
 我曾经沉迷于玩电子游戏，但我完全戒掉了。如果您想了解我是如何戒掉游戏的，请关注本站的专栏。
 
